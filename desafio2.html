@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+     <label for="nome">Nome completo:</label><br />
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Digite seu nome"
+        /><br />
+
+        <label for="senha">Senha de acesso:</label><br />
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          placeholder="Digite sua senha"
+        /><br />
+    </form>
+       </select>
+       <br>
+    </section>
+    <section>
+         <label for="oficina principal">Oficina principal:</label><br>
+
+             <select name="oficina principal" id="oficina principal">
+                 <option value="html e css">HTML e CSS</option>
+                 <option value="robotica">Robotica</option>
+                 <option value="javascript">JavaScript</option>
+                 <option value="artes">Artes</option>
+                 <option value="ed fisica">Ed Física</option>
+                 <option value="geografia">Geografia</option>
+                 <option value="historia">Historia</option>
+       </select>
+       <br>
+    </section>
+    <section>
+         <p>Turno:</p>
+
+
+        <input type="radio" id="Manhã" name="turno" value="Manhã" />
+        <label for="Manhã">Manhã</label>
+        <input type="radio" id="Tarde" name="turno" value="Tarde" />
+        <label for="Tarde">Tarde</label>
+        <input type="radio" id="Noite" name="turno" value="Noite" />
+        <label for="Noite">Noite</label>
+        <br />
+    </section>
+    <section>
+        <p>Áreas De Interesse:</p>
+
+        <input type="checkbox" id="programação web" name="programação web" value="programação web" />
+        <label for="programação web">Programação Web</label>
+        <input type="checkbox" id="desing" name="desing" value="desing" />
+        <label for="desing">Desing</label>
+        <input type="checkbox" id="banco de dados" name="banco de dados" value="banco de dados" />
+        <label for="banco de dados">Banco De Dados</label>
+        <input type="checkbox" id="robotica" name="robotica" value="robotica" />
+        <label for="robotica">Robótica</label>  
+    </section>
+    <section>
+        <label for="observacao">Observações:</label><br>
+             <textarea name="observacao" id="observacao" rows="10" ></textarea>
+             <br>
+             <button type = "submit" onclick="alert('enviar')">enviar</button>
+    </section>
+    <section>
+      <h2>Participantes já escritos</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Oficina</th>
+            <th>Turno</th>
+            <th>status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>pamela</td>
+            <td>artes</td>
+            <td>manhâ</td>
+            <td>confirmado</td>
+          </tr>
+          <tr>
+            <td>giovanna</td>
+            <td>ed fisica</td>
+            <td>tarde</td>
+            <td>confirmada</td>
+          </tr>
+          <tr>
+            <td>lygia</td>
+            <td>HTML e CCS</td>
+            <td>tarde</td>
+            <td>em analise</td>
+          </tr>
+          <tr>
+            <td>Otavio</td>
+            <td>robotica</td>
+            <td>noite</td>
+            <td>pedente</td>
+          </tr>
+          <tr>
+            <td>josue</td>
+            <td>Banco de dados</td>
+            <td>tarde</td>
+            <td>em analise</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    </section>
+    
+</body>
+</html>
