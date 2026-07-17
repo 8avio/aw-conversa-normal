@@ -1,50 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Kablammo&display=swap');
-
-body{
-    font-family: "Concert One", "Kablammo" sans-serif;
+/* Paleta de cores */
+:root {
+  --cor-principal: #004d99;
+  --cor-secundaria: #0077cc;
+  --cor-off-white: #f4f4f4;
+  --cor-texto: #333;
+  --cor-destaque: #e3f2fd;
+  --cor-card: #ffffff;
+  --cor-da-borda: #b0bec5;
+  --cor-hover: #005fa3;
 }
 
-/* Seleção de elemento */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--cor-off-white);
+  color: var(--cor-texto);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+header,
+footer {
+  background-color: var(--cor-principal);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+nav {
+  background-color: var(--cor-secundaria);
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: var(--cor-hover);
+}
+
+
+section {
+  padding: 20px;
+}
+
+
+#inicio {
+  background-color: var(--cor-destaque);
+}
+
+#programacao,
+#contato {
+  border-left: 5px solid var(--cor-principal);
+  background-color: #ffffff;
+  margin-top: 15px;
+}
+
+
+h1,
+h2,
+.titulo-secao {
+  font-family: Georgia, serif;
+  color: var(--cor-principal);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+}
+
 h2 {
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(255, 109, 109);
+  font-size: 1.6em;
 }
 
-/* Seleção de id */
-#tabela {
-    text-align: center;
-    background-color: rgba(255, 91, 119, 0.74);
+
+.card-programa {
+  background-color: var(--cor-card);
+  border: 1px solid var(--cor-borda);
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px 0;
+  font-size: 0.95em;
 }
 
-/* Seleção de classe */
-.negrito {
-    font-weight: bold;
+
+footer p {
+  margin: 0;
 }
-
-/* Seleção de elemento (p) que usa uma determinada classe (courier) */
-p.courier {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-h1, h2, h3 {
-    font-style: italic;
-}
-
-form button {
-    background-color: rgba(235, 247, 77, 0.863);
-}
-
-    :root{
-     --Deep-Space-Blue: #012a4a;   
-     --Yale-Blue: #013a63;
-     --Yale-Bluie: #01497c;
-     --Dusk-Blue: #014f86;
-     --Rich-Cerulean: #2a6f97;
-     --Cerulean: #2c7da0;
-     --Blue-Green: #468faf;
-     --Pacific-Blue: #61a5c2;
-     --Sky-Blue-Light: #89c2d9;
-     --Light-Blue: #a9d6e5;
-    }
-
-
